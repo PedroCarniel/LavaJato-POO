@@ -1,4 +1,4 @@
-# 🚗 Sistema de Gestão de Lava Jato (Enterprise Edition)
+<img width="919" height="857" alt="image" src="https://github.com/user-attachments/assets/8f200905-b66a-498f-be84-ff34c661a5b8" /># 🚗 Sistema de Gestão de Lava Jato (Enterprise Edition)
 
 Este projeto consiste em um sistema robusto desenvolvido em **Python** para o gerenciamento de um Lava Jato. O objetivo principal é demonstrar a aplicação prática e avançada dos **4 Pilares da Programação Orientada a Objetos (POO)** e a implementação de múltiplos **Padrões de Projeto (Design Patterns)**.
 
@@ -71,6 +71,13 @@ O sistema implementa **três padrões comportamentais/criacionais** principais s
 - **Arquivo:** `src/core/manager.py`
 - **Objetivo:** Garante que exista apenas uma instância da classe gerenciadora.
 - **Aplicação:** Assegura que todo o sistema compartilhe o mesmo "Caixa Financeiro". Se tentarmos instanciar o `LavaJatoManager` em dois lugares diferentes, ambos apontarão para o mesmo objeto na memória.
+
+## 5. 📐 Diagrama de Classes (UML)
+
+O diagrama abaixo ilustra a arquitetura modular do sistema, detalhando a aplicação dos padrões de projeto e as relações entre as classes.
+
+<img width="919" height="857" alt="image" src="https://github.com/user-attachments/assets/fb7caf08-868a-4cc6-8f6e-a9872b9e0b2d" />
+
 
 ---
 
