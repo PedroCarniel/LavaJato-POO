@@ -100,5 +100,6 @@ O sistema implementa **três padrões comportamentais/criacionais** principais s
     ```
 
 ---
-**Autor:** Pedro Henrioque Castaman Carniel
+**Autor:** Pedro Henrique Castaman Carniel
+
 **Disciplina:** Tecnologia Orientada a Objetos (TOO)
