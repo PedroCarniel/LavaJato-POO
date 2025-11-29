@@ -1,3 +1,5 @@
+# 🚗 Sistema de Gestão de Lava Jato (Enterprise Edition)
+
 Este projeto consiste em um sistema robusto desenvolvido em **Python** para o gerenciamento de um Lava Jato. O objetivo principal é demonstrar a aplicação prática e avançada dos **4 Pilares da Programação Orientada a Objetos (POO)** e a implementação de múltiplos **Padrões de Projeto (Design Patterns)**.
 
 O sistema simula um fluxo de atendimento real: desde a validação da placa (via Regex) e verificação de disponibilidade, até a escolha da estratégia de lavagem, cálculo de preços e persistência de dados financeiros.
