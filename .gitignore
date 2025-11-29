@@ -1,0 +1,10 @@
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar relatórios gerados localmente (opcional, se quiser manter o repo limpo)
+data/relatorios/*.json
