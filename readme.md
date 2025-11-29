@@ -6,11 +6,15 @@ O sistema simula um fluxo de atendimento real: desde a validação da placa (via
 
 ---
 
-## 📋 Funcionalidades
+## 📋 Funcionalidades do Sistema
 
-- **Cadastro Dinâmico de Veículos:** Suporte para Carros e Motos via Factory.
-- **Tabela de Preços:** Consulta interativa de valores para Carros e Motos (com cálculo automático de descontos).
-- **Múltiplas Estratégias de Lavagem:** ...
+O sistema oferece um conjunto completo de ferramentas para a gestão operacional e financeira do Lava Jato:
+
+* **Gestão de Atendimentos:** Cadastro de veículos (Carro/Moto) com **validação automática de placas** (Padrão Brasil e Mercosul via Regex).
+* **Precificação Inteligente:** Cálculo automático de valores baseados no tipo de veículo, aplicando **regras de desconto dinâmicas** (ex: 15% off para motos).
+* **Múltiplas Estratégias:** Seleção flexível de serviços de lavagem (Simples, Completa, Ecológica) utilizando o padrão *Strategy*.
+* **Controle Financeiro:** Monitoramento centralizado do fluxo de caixa (via *Singleton*) e consulta interativa de **tabela de preços**.
+* **Relatórios e Persistência:** Geração de logs detalhados de execução e **exportação de dados em JSON** para backup e auditoria.
 
 ## 📚 Descrição das Classes e Pilares da POO
 
